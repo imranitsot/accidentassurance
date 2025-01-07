@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 180 20% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 180 20% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 20% 20%;
+    --primary: 180 76% 40%; /* Teal color */
+    --primary-foreground: 180 100% 95%; /* Teal accent */
+    --secondary: 180 15% 90%; /* Muted teal */
+    --secondary-foreground: 180 10% 20%;
+    --muted: 180 15% 90%; /* Muted teal */
+    --muted-foreground: 180 10% 40%;
+    --accent: 180 15% 90%; /* Muted teal */
+    --accent-foreground: 180 10% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 10% 85%; /* Teal-tinted border */
+    --input: 180 10% 85%; /* Teal-tinted input */
+    --ring: 180 76% 40%; /* Teal ring */
+    --radius: 0.5rem;
+    --chart-1: 180 76% 50%; /* Chart with teal */
+    --chart-2: 180 60% 40%; /* Slightly muted teal */
+    --chart-3: 180 45% 35%; /* Deeper teal */
+    --chart-4: 150 65% 50%; /* Greenish teal */
+    --chart-5: 200 75% 55%; /* Bluish teal */
+  }
+
+  .dark {
+    --background: 180 20% 10%; /* Dark teal background */
+    --foreground: 180 10% 90%; /* Light teal foreground */
+    --card: 180 15% 15%;
+    --card-foreground: 180 10% 90%;
+    --popover: 180 10% 10%;
+    --popover-foreground: 180 10% 90%;
+    --primary: 180 70% 45%;
+    --primary-foreground: 180 80% 10%;
+    --secondary: 180 20% 20%;
+    --secondary-foreground: 180 10% 95%;
+    --muted: 180 20% 20%;
+    --muted-foreground: 180 10% 65%;
+    --accent: 180 20% 20%;
+    --accent-foreground: 180 10% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 180 20% 25%;
+    --input: 180 20% 25%;
+    --ring: 180 71% 35%; /* Dark teal ring */
+    --chart-1: 180 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 180 45% 35%;
+    --chart-4: 150 65% 60%;
+    --chart-5: 200 75% 55%;
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
