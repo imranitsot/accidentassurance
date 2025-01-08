@@ -3,7 +3,7 @@ import { FaCogs, FaChartLine, FaInfo } from 'react-icons/fa';
 
 const Features = () => {
   return (
-    <section id="features" className="bg-teal-500 text-white py-20">
+    <section id="features" className="bg-teal-800 text-white py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Why Choose DigiBal</h2>
@@ -12,10 +12,10 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 mb-6 bg-white rounded-full flex items-center justify-center">
-              <FaCogs className="text-black text-3xl" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 ">
+          <div className="flex flex-col items-center text-center border-4 border-white p-6 rounded-lg">
+            <div className="w-16 h-16 mb-6 bg-teal-600 rounded-full flex items-center justify-center">
+              <FaCogs className="text-white text-3xl" />
             </div>
             <h3 className="text-2xl font-semibold text-white mb-2">Had an accident?</h3>
             <p className="text-gray-300">
@@ -23,9 +23,9 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 mb-6 bg-white rounded-full flex items-center justify-center">
-              <FaChartLine className="text-black text-3xl" />
+          <div className="flex flex-col items-center text-center border-4 border-white p-6 rounded-lg">
+            <div className="w-16 h-16 mb-6 bg-teal-600 rounded-full flex items-center justify-center">
+              <FaChartLine className="text-white text-3xl" />
             </div>
             <h3 className="text-2xl font-semibold text-white mb-2">Call us now, or enter your details for a fast call-back</h3>
             <p className="text-gray-300">
@@ -33,9 +33,9 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 mb-6 bg-white rounded-full flex items-center justify-center">
-              <FaChartLine className="text-black text-3xl" />
+          <div className="flex flex-col items-center text-center border-4 border-white p-6 rounded-lg">
+            <div className="w-16 h-16 mb-6 bg-teal-600 rounded-full flex items-center justify-center">
+              <FaChartLine className=" text-white text-3xl" />
             </div>
             <h3 className="text-2xl font-semibold text-white mb-2">Receive a call from our team</h3>
             <p className="text-gray-300">
@@ -43,9 +43,9 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 mb-6 bg-white rounded-full flex items-center justify-center">
-              <FaInfo className="text-black text-3xl" />
+          <div className="flex flex-col items-center text-center border-4 border-white p-6 rounded-lg">
+            <div className="w-16 h-16 mb-6 bg-teal-600 rounded-full flex items-center justify-center">
+              <FaInfo className="text-white text-3xl" />
             </div>
             <h3 className="text-2xl font-semibold text-white mb-2">Get back on the road</h3>
             <p className="text-gray-300">
